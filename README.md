@@ -1,7 +1,9 @@
 # riftbound-tts-data
 
-Card data for a Riftbound table for Tabletop Simulator: one file, `cards.json`, that the table fetches when it loads
-so new printings show up without a new upload of the table.
+Data for a Riftbound table for Tabletop Simulator.
+
+- `cards.json`: fetched by the table when it loads, so new printings show up without a new upload of the table
+- `tokens/`: the pictures of the table's keyword and damage tokens, drawn for the table (a plate per side)
 
 - built from the unofficial [Piltover Archive](https://piltoverarchive.com) API: every printing with its text,
   picture and the notes the table's buttons need (Might, spawned tokens, champion)
